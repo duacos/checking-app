@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  controles: MyString
+  mecanismos: MyString
+  segregacion: MyString
+  politicas: MyString
+  intercambio: MyString
+  mensajeria: MyString
+  confidencialidad: MyString
+
+two:
+  controles: MyString
+  mecanismos: MyString
+  segregacion: MyString
+  politicas: MyString
+  intercambio: MyString
+  mensajeria: MyString
+  confidencialidad: MyString

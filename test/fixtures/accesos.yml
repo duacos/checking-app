@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  politicaControl: MyString
+  controlAcceso: MyString
+  gestionAltasBajas: MyString
+  gestionDerechosUsuarios: MyString
+  gestionDerechosEspeciales: MyString
+  revisionDerechos: MyString
+  retirada: MyString
+  restriccion: MyString
+  procedimientos: MyString
+  gestionPassword: MyString
+  uso: MyString
+  accesoCodigo: MyString
+
+two:
+  politicaControl: MyString
+  controlAcceso: MyString
+  gestionAltasBajas: MyString
+  gestionDerechosUsuarios: MyString
+  gestionDerechosEspeciales: MyString
+  revisionDerechos: MyString
+  retirada: MyString
+  restriccion: MyString
+  procedimientos: MyString
+  gestionPassword: MyString
+  uso: MyString
+  accesoCodigo: MyString
