@@ -9,7 +9,6 @@
 
 
 
-Empresa.create(name: "Ejemplo de organización",description: "descripción de la organización")
 
 
 
