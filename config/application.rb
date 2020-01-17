@@ -39,7 +39,7 @@ module CheckingApp
       allow do
         origins 'https://checkingappui.herokuapp.com'
         resource '*',
-          headers: :any,
+          headers: [:any, 'Access-Control-Allow-Origin'],
           methods: %i(get post put patch delete options head)
       end
     end
