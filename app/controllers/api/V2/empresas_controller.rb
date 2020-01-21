@@ -1,5 +1,6 @@
 class Api::V2::EmpresasController < ApplicationController
   before_action :set_empresa, only: [:show, :update, :destroy]
+  skip_before_action :verify_authenticity_token, :only => [:show, :update, :destroy], raise: false
 
   # GET /empresas
   def index
