@@ -33,10 +33,10 @@ module CheckingApp
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-
+    ENV['CORS_ORIGINS'] = 'https://checkingappui.herokuapp.com, http://checkingappui.herokuapp.com, http://localhost:3000'
     Rails.application.config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'http://checkingappui.herokuapp.com'
+        origins ENV['CORS_ORIGINS'].split(',').map { |origin| origin.strip }
         resource '*',
           headers: :any,
           methods: %i(get post put patch delete options head)
